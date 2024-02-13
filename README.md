@@ -18,10 +18,11 @@ library("rblt")
 
 # visualise 2 Cats files + one with the behaviors
 l=LoggerList$new()
-l$add(LoggerCats$new("CC-07-47_14-02-2018_corr.h5",filebehavior="Behaviors_CC-07-47_14-02-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F)))
-l$add(LoggerCats$new("CC-07-115_14-02-2019_corr.h5"))
+l$add(LoggerCats$new("CC-07-47_14-02-2018_corr.h5",filebehavior="Behaviors_CC-07-47_14-02-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F),besaturation=0.6))
+l$add(LoggerCats$new("CC-07-48_26-05-2018_corr.h5",filebehavior="Behaviors_CC-07-48_26-05-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F),besaturation=0.7))
 lui=LoggerUI$new(l)
 lui$gui()
+
 ```
 ### Screenshot
 view main screen
@@ -51,8 +52,8 @@ library("rblt")
 
 # visualiser 2 fichiers Cats
 l=LoggerList$new()
-l$add(LoggerCats$new("CC-07-47_14-02-2018_corr.h5",filebehavior="Behaviors_CC-07-47_14-02-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F)))
-l$add(LoggerCats$new("CC-07-115_14-02-2019_corr.h5"))
+l$add(LoggerCats$new("CC-07-47_14-02-2018_corr.h5",filebehavior="Behaviors_CC-07-47_14-02-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F),besaturation=0.6))
+l$add(LoggerCats$new("CC-07-48_26-05-2018_corr.h5",filebehavior="Behaviors_CC-07-48_26-05-2018.csv", besep=";", metricshow=c(T,T,F,F,T,F),besaturation=0.7))
 lui=LoggerUI$new(l)
 lui$gui()
 ```
