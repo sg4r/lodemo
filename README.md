@@ -28,7 +28,7 @@ view main screen
 ![rblt main screen](rbltdemo.png)
 
 ### Online version
-you can use a online version from shinyapps https://rblt.shinyapps.io/lodemo/
+you can use a online version from shinyapps https://rblt.shinyapps.io/lodemo/ ou https://sg4r.shinyapps.io/lodemo/
 # French Version
 ## rblt démo
 Démo de l'utilisation de rblt 2.4.7
